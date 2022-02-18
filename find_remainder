@@ -1,6 +1,4 @@
-x = int(input())
-tests = []
-for i in range(x):
-    tests.append([int(i) for i in input().split()])
-for i in tests:
-    print(i[0]%i[1])
+n1 = int(input("Enter 1st number"))
+n2 = int(input("Enter 2nd number"))
+r = n1 % n2
+print("Remainder = ",r)
